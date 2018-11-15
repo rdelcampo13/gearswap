@@ -1,0 +1,215 @@
+.home-container {
+    max-width: 945px;
+}
+
+.landing-title {
+    margin-bottom: 50px !important;
+    font-weight: 700;
+}
+
+.landing-card {
+    padding: 48px 60px 100px;
+}
+
+.landing-header {
+    padding: 4em 0;
+}
+
+.explore-title {
+    font-weight: 600;
+}
+
+.explore-col {
+    margin-bottom: 1rem;
+}
+
+.explore-container:hover {
+    background-color: rgba(0,0,0,.6);
+};
+
+.explore-card-title {
+    /* font-weight: 600; */
+    text-shadow: 3px 3px #222;
+}
+
+.container-link {
+    color: #222;
+    /* margin: 1rem 0; */
+    text-decoration: underline;
+}
+
+.container-link:hover {
+    text-decoration: none;
+}
+
+.how-it-works-row {
+    background-color: #f8f8f8;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.how-list {
+    list-style: none;
+    counter-reset: works-counter;
+}
+
+.how-list li {
+    counter-increment: works-counter;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 30px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.how-list li::before {
+    content: counter(works-counter);
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.how-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hand {
+    height: 450px;
+}
+
+.hand-container {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05) !important;
+    padding: 0px;
+}
+
+.new-toggler {
+    padding-left: calc(5% - 15px);
+    padding-right: calc(5% - 15px);
+    border: none;
+}
+
+.gear-swap-logo {
+    padding: 20px 35px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #e7e7e7;
+    margin-right: 2em;
+}
+
+@media only screen and (max-width: 991px) {
+    .gear-swap-logo {
+        margin: 0 !important;
+        border: none !important;
+        width: 80%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+}
+
+.hero-card {
+    border: none !important;
+    border-radius: 0px !important;
+}
+.animate {
+    animation-name: animationTitle;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    visibility: hidden;
+    opacity: 1;
+    position: relative;
+    animation-delay: .65s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationTitle {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+      top: -20px;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+      top: 0;
+    }
+  }
+
+.nav-menu {
+    padding: 16px 35px;
+}
+
+.search-bar {
+    border: none;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+
+/* FOOTER */
+.footer-container {
+    margin-top: 40px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e7e7e7;    
+}
+
+.footer {
+    padding-right: calc(50% - 472.5px);
+    padding-left: calc(50% - 472.5px);
+}
+
+.footer-nav {
+    flex-direction: row;
+    padding: 16px 0px;
+}
+
+.footer-nav li a {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .landing-title {
+        font-size: 2rem !important;
+        margin-bottom: 18px !important;
+    }
+    .home-container {
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+    }
+    .home-img {
+        height: 335px;
+        width: auto;
+        border-radius: calc(.25rem - 1px);
+        object-fit: cover;
+    }
+    .footer {
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+    }
+}

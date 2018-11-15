@@ -1,0 +1,79 @@
+/* ---------------------- CUSTOM CSS ----------------------- */
+
+.landing-header {
+    background-color: transparent !important;
+}
+
+.landing-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: rgba(50,50,50,1) !important;
+}
+
+@media (max-width: 768px) {
+    .landing-header {
+        text-align: center !important;
+    }
+    .landing-header h1 {
+        font-size: 3rem;
+    }
+}
+
+.landing-header h4 {
+    margin-bottom: 20px;
+    color: rgba(225,225,225,1) !important;
+}
+
+.upload-form {
+    padding-top: 4em;
+}
+
+@media (max-width: 992px) {
+    .upload-form {
+        padding-top: 1em;
+    }
+}
+
+.signup-body,
+.login-body {
+    padding: 3rem 5rem;
+    color: #fff
+}
+
+@media (max-width: 576px) {
+    .signup-body,
+    .login-body {
+        padding: 3rem 2rem;
+    }
+}
+
+.trade-table {
+    background-color: transparent;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+} 
+
+.modal-dialog {
+    margin: 10rem auto;
+}
+
+.modal-content {
+    background-color: #23292f;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+    }    
+}
+
+.input-group-text {
+    background-color: transparent;
+    color: #ffce54
+}
