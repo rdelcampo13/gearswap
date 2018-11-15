@@ -6,7 +6,7 @@ class Home extends Component {
 
   state = {
     search: "",
-    url: "https://crate-dig.sharetribe.com/?q=",
+    url: "https://gear-swap1.sharetribe.com/?q=",
     query: "austin+texas"
   };
 
@@ -63,13 +63,13 @@ class Home extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto nav-menu">
               <li className="nav-item">
-                <a className="nav-link" href="https://crate-dig.sharetribe.com/en/listings/new">+ Add your gear</a>
+                <a className="nav-link" href="https://gear-swap1.sharetribe.com/en/listings/new">+ Add your gear</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://crate-dig.sharetribe.com/en/signup">Sign up</a>
+                <a className="nav-link" href="https://gear-swap1.sharetribe.com/en/signup">Sign up</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://crate-dig.sharetribe.com/en/login">Log in</a>
+                <a className="nav-link" href="https://gear-swap1.sharetribe.com/en/login">Log in</a>
               </li>
             </ul>
           </div>
@@ -108,7 +108,7 @@ class Home extends Component {
                         <div className="col-sm-12">
                           <h3 className="card-title animate">Buy & sell audio equipment</h3>
                           <h3 className="card-title animate">from the recording community.</h3>
-                          <a href="https://crate-dig.sharetribe.com" className="btn btn-light animate" style={{ color: 'black', marginTop: '20px' }} >Get Started</a>
+                          <a href="https://gear-swap1.sharetribe.com" className="btn btn-light animate" style={{ color: 'black', marginTop: '20px' }} >Get Started</a>
                         </div>
                       </div>
                     </div>
@@ -127,7 +127,7 @@ class Home extends Component {
 
                   <div className="row">
                     <div className="col-md-4 col-sm-12 explore-col">
-                      <a href="https://crate-dig.sharetribe.com/?q=monitors">
+                      <a href="https://gear-swap1.sharetribe.com/?q=monitors">
                         <div className="card hero-card bg-dark text-white">
                           <img className="card-img" src="/img/studio-monitors.jpg" alt="Card image" />
                           <div className="card-img-overlay explore-container text-center d-flex flex-column justify-content-center">
@@ -138,7 +138,7 @@ class Home extends Component {
                     </div>
 
                     <div className="col-md-4 col-sm-12 explore-col">
-                      <a href="https://batswap.sharetribe.com/?q=audio+interfaces">
+                      <a href="https://gear-swap1.sharetribe.com/?q=audio+interfaces">
                         <div className="card hero-card bg-dark text-white">
                           <img className="card-img" src="/img/audio-interface.jpg" alt="Card image" />
                           <div className="card-img-overlay explore-container text-center d-flex flex-column justify-content-center">
@@ -149,7 +149,7 @@ class Home extends Component {
                     </div>
 
                     <div className="col-md-4 col-sm-12 explore-col">
-                      <a href="https://batswap.sharetribe.com/?q=MPC">
+                      <a href="https://gear-swap1.sharetribe.com/?q=MPC">
                         <div className="card hero-card bg-dark text-white">
                           <img className="card-img" src="/img/mpc.jpg" alt="Card image" />
                           <div className="card-img-overlay explore-container text-center d-flex flex-column justify-content-center">
@@ -161,7 +161,7 @@ class Home extends Component {
 
                   </div>
 
-                  <a className="container-link" href="https://crate-dig.sharetribe.com/"><p className="container-link">Explore all types of gear.</p></a>
+                  <a className="container-link" href="https://gear-swap1.sharetribe.com/"><p className="container-link">Explore all types of gear.</p></a>
                 </div>              
               </div>
             </div>
@@ -190,7 +190,7 @@ class Home extends Component {
                           <br/>
                           <span className="">Schedule the time and date for your session using our calendar scheduling in minutes. Submit your booking request, payment, and receive confirmation in a few clicks.</span>
                           <br/>
-                          <a href="https://crate-dig.sharetribe.com" className="btn btn-dark" style={{ marginTop: '30px', marginBottom: '10px' }} >Get Started</a>                      
+                          <a href="https://gear-swap1.sharetribe.com" className="btn btn-dark" style={{ marginTop: '30px', marginBottom: '10px' }} >Get Started</a>                      
                         </li>
                       </ol>
                     </div>
