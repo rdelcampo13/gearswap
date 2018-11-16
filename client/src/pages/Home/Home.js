@@ -178,17 +178,17 @@ class Home extends Component {
                         <li>
                           <span className="how-title">Discover Gear</span> 
                           <br/>
-                          <span className="">Discover studios nearby or in 35+ countries. From the most unique home studios to top-line studios exclusive to Studiotime, we have the right studio for every budget.</span>
+                          <span className="">Discover gear nearby or across the country. From the most unique synthesizers to old school drum machines, we have the right gear for every genre.</span>
                         </li>
                         <li>
                           <span className="how-title">Request Info</span>
                           <br/>
-                          <span className="">Have questions about a studio, equipment, or need an engineer for your session? Use our site messaging to communicate directly with studios.</span>
+                          <span className="">Have questions about hardwear, condition, or need additional pics? Use our site messaging to communicate directly with sellers.</span>
                         </li>
                         <li>
                           <span className="how-title">Pay & Jam</span>
                           <br/>
-                          <span className="">Schedule the time and date for your session using our calendar scheduling in minutes. Submit your booking request, payment, and receive confirmation in a few clicks.</span>
+                          <span className="">Schedule a pickup or shippment and pay online in minutes. Shop in confidence with the safety of PayPal Buyer Protection.</span>
                           <br/>
                           <a href="https://gearswap.sharetribe.com" className="btn btn-dark" style={{ marginTop: '30px', marginBottom: '10px' }} >Get Started</a>                      
                         </li>
