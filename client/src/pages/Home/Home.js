@@ -161,7 +161,7 @@ class Home extends Component {
 
                   </div>
 
-                  <a className="container-link" href="https://gearswap.sharetribe.com/"><p className="container-link">Explore all types of gear.</p></a>
+                  <a className="container-link" href="https://gearswap.sharetribe.com/"><p className="container-link">Explore all categories of gear.</p></a>
                 </div>              
               </div>
             </div>
