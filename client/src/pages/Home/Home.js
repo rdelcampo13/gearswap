@@ -161,7 +161,7 @@ class Home extends Component {
 
                   </div>
 
-                  <a className="container-link" href="https://gearswap.sharetribe.com/"><p className="container-link">Explore all categories of gear.</p></a>
+                  <a className="container-link" href="https://gearswap.sharetribe.com/"><p className="container-link">Explore all categories.</p></a>
                 </div>              
               </div>
             </div>
@@ -188,7 +188,7 @@ class Home extends Component {
                         <li>
                           <span className="how-title">Pay & Jam</span>
                           <br/>
-                          <span className="">Schedule a pickup or shippment and pay online in minutes. Shop in confidence with the safety of PayPal Buyer Protection.</span>
+                          <span className="">Schedule a pickup or shippment and pay online in minutes. Shop with confidence with the safety of PayPal Buyer Protection.</span>
                           <br/>
                           <a href="https://gearswap.sharetribe.com" className="btn btn-dark" style={{ marginTop: '30px', marginBottom: '10px' }} >Get Started</a>                      
                         </li>
